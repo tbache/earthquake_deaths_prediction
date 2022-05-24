@@ -12,7 +12,7 @@ def fetch_descriptor(desc):
         Dataframe containing content contained within descriptor.        
     """
     
-    filename = desc.replace('/','-')+'.json'
+    filename = 'data/'+desc.replace('/','-')+'.json'
     url = f'https://www.ngdc.noaa.gov/hazel/hazard-service/api/v1/descriptors/{desc}'
     urllib.request.urlretrieve(url, filename)
     with open(filename,'r') as f:
