@@ -6,7 +6,7 @@ Data is from the National Centers for Environmental Information (NCEI) which sto
 Project outline and summary:
 - Extraction of data using NCEI API.
 - Exploratory data analysis (understanding the features and their properties, dealing with missing data...).
-- Feature engineering (using an independent population density dataset from another source to add features to the earthquake dataset).
+- Feature engineering (inc. using an independent population density dataset from another source to add features to the earthquake dataset).
 - PCA.
 - Regression to predict the number of deaths (linear, random forest, knn with hyperparameter optimisation).
 - Classification to classify the earthquakes into binned numbers of deaths (logistic regression, random forest as well as hyperparameter optimisation and SMOTE).
