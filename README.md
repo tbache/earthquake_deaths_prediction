@@ -1,4 +1,4 @@
-# earthquake_ML
+# earthquake_deaths_prediction
 Data science/ML project analysing earthquakes from the last 4000 years. The aim is to predict the number of deaths caused by an earthquake.
  
 Data is from the National Centers for Environmental Information (NCEI) which stores historical earthquake data (from 2000BC to present) available for public use. It can be extracted using their API.
